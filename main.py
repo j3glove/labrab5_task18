@@ -10,8 +10,7 @@ def printmatrix(matrix):
 countneg=0
 countpos=0
 summ=0
-        #пользовательский ввод
-K = int(input("Введите число K"))
+K = int(input("Введите число K "))  #пользовательский ввод
 while True:
     N=int(input("Введите число N в интервале от 3 до 1000 включительно "))
     if N>=3 and N <= 1000:
